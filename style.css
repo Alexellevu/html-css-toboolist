@@ -1,7 +1,7 @@
 body{
     width: 80%;
     margin:auto;
-    background-color: lightskyblue;
+    
 }
 
 header{
@@ -20,32 +20,57 @@ header{
 
 main{
     background-color:cyan;
-    width: 70%;
-    margin:30px auto;
+    width: 1100px;
+    height: 1200px;
+    margin:0,5px auto;
+    padding-top: 2%;
 }
 
-section{
+.sezione{
     background-color: white;
-    width: 60%;
-    height: 50%;
-    margin:auto;
+    width: 700px;
+    height: 800px;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 1%;
+    
+}
+
+.pulsantiera{
+    height: 5%;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-block-color: cyan;
+    padding-left: 50px;
+    padding-bottom:10px ;
+    
+    
+
 }
 
 #pulsante1{
     background-color: blue;
     color: white;
-    border-radius: 5px;
+    border-radius: 8px;
     border-color:lightgray;
     border-style: solid;
-    font-style: initial;
+    border-width: 1px;
+    font-family:sans-serif;
+    padding: 8px 8px 8px 8px;
+    display: inline-block;
+    font-size: 12px;
     
 }
 
 #pulsante2{
     color: lightgray;
-    border-radius: 1px;
+    border-radius: 8px;
     border-color:lightgray;
     border-style: solid;
-    border-radius: 5px;
+    border-width: 1px;
+    font-family:sans-serif;
+    padding: 8px 8px 8px 8px;
+    display: inline-block;
+    font-size: 12px;
 }
 
