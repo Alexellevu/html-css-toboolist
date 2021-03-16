@@ -1,0 +1,15 @@
+body{
+    width: 80%;
+    margin:auto;
+}
+
+main{
+    background-color: red;
+}
+
+#titolo{
+    display: inline;
+    text-align: center;
+    
+    
+}
