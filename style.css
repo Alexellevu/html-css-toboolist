@@ -3,13 +3,40 @@ body{
     margin:auto;
 }
 
-main{
-    background-color: red;
-}
 
 #titolo{
     display: inline;
     text-align: center;
+    height: 90%;
     
     
 }
+
+main{
+    background-color:cyan;
+}
+
+section{
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    margin:auto;
+}
+
+#pulsante1{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border-color:lightgray;
+    border-style: solid;
+    
+}
+
+#pulsante2{
+    color: lightgray;
+    border-radius: 1px;
+    border-color:lightgray;
+    border-style: solid;
+    border-radius: 5px;
+}
+
