@@ -1,19 +1,27 @@
 body{
     width: 80%;
     margin:auto;
+    background-color: lightskyblue;
 }
 
+header{
+    background-color: white;
+}
 
+.logo{
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
 #titolo{
-    display: inline;
-    text-align: center;
-    height: 90%;
-    
-    
+    display: inline-block;
+    vertical-align: middle;
 }
 
 main{
     background-color:cyan;
+    width: 70%;
+    margin:30px auto;
 }
 
 section{
@@ -29,6 +37,7 @@ section{
     border-radius: 5px;
     border-color:lightgray;
     border-style: solid;
+    font-style: initial;
     
 }
 
