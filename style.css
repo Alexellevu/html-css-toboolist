@@ -80,10 +80,8 @@ main{
 
 h3:before{
     content: ' \25BE';
-    
-
-
 }
+    
 
 .lista_special{
     list-style: none;
@@ -114,6 +112,14 @@ li::before{
     font-size: 9px;
     font-family: Arial;
     margin-left: 5px;
+}
+
+.classx{
+
+}
+
+li.classx::before{
+    content: ' \0078';
 }
 
 
