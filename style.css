@@ -16,10 +16,13 @@ header{
 #titolo{
     display: inline-block;
     vertical-align: middle;
+    font-size: 35px;
+    font-family: arial;
+    
 }
 
 main{
-    background-color:cyan;
+    background-color:rgba(220, 228, 241, 0.5);
     width: 1100px;
     height: 1200px;
     margin:0,5px auto;
@@ -33,6 +36,7 @@ main{
     margin-left: 18%;
     margin-right: 18%;
     padding-top: 1%;
+    border-radius: 4px;
     
 }
 
@@ -49,7 +53,7 @@ main{
 }
 
 #pulsante1{
-    background-color: blue;
+    background-color: rgb(100, 100, 240);
     color: white;
     border-radius: 8px;
     border-color:lightgray;
@@ -92,6 +96,7 @@ h3:before{
 li{
     height: 50px;
     display: block;
+    padding-left: 5px;
     
 }
 
@@ -103,9 +108,12 @@ li::before{
   
 }
 
+div,li{
+    font-family: arial;
+}
+
 .etichetta{
     
-    background-color: purple;
     color: white;
     border-radius: 10px;
     padding: 9px;
@@ -114,12 +122,35 @@ li::before{
     margin-left: 5px;
 }
 
-.classx{
+.classx{}
 
-}
+
 
 li.classx::before{
     content: ' \0078';
 }
 
+.editorial{
+ background-color: cornflowerblue;
+}
 
+.q1{
+    background-color:rgb(192, 31, 192);
+}
+
+.recruiting{
+    background-color: rgb(138, 177, 138);
+}
+
+.mobile{
+    background-color: orange;
+
+}
+
+.website{
+    background-color: rgb(138, 177, 138);
+}
+
+.sales{
+    background-color: rgb(39, 199, 39);
+}
